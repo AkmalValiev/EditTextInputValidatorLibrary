@@ -1,2 +1,4 @@
 rootProject.name = "EditTextInputValidator(Library)"
 include ':app'
+include ':InputValidator'
+include ':Library'
