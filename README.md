@@ -32,6 +32,14 @@ var edit2 = findViewById&lt;EditText>(R.id.edit2)
 
 InputValidator.validator(edit1, edit2)
 
+# Maven
+
+maven {
+
+     url 'https://jitpack.io' 
+     
+}
+
 # Gradle
 
 dependencies {
