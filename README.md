@@ -36,7 +36,6 @@ InputValidator.validator(edit1, edit2)
 
 dependencies {
 
-    ...
     implementation 'com.github.AkmalValiev:EditTextInputValidatorLibrary:1.1.2'
     
 }
