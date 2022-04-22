@@ -15,9 +15,9 @@ object InputValidator{
         }
 
         editText1.addTextChangedListener {
-            if (editText1.text.toString()!=editText2.text.toString()){
+            if (editText1.text.toString()!=editText2.text.toString() && editText2.text.toString()!=""){
                 editText2.setCompoundDrawablesWithIntrinsicBounds(0,0, R.drawable.ic_baseline_info_24, 0)
-            }else if (editText1.text.toString()==editText2.text.toString()){
+            }else if (editText1.text.toString()==editText2.text.toString() && editText2.text.toString()!=""){
                 editText2.setCompoundDrawablesWithIntrinsicBounds(0,0, R.drawable.ic_baseline_check_24, 0)
             }
         }
